@@ -1,0 +1,147 @@
+
+
+header{
+    width: 100vw;
+    margin: none;
+    display: flex;
+    flex-direction: column;
+    z-index: 99;
+
+}
+
+
+
+.container_header_flex{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    position: absolute;
+    z-index: 1008;
+    margin: none;
+    
+    
+    
+    
+    
+      
+        .container_header_flex_inner_Box{
+           margin: auto;
+           text-align: center;
+           position: relative;
+           margin-bottom: 5px;
+           width: 50vw;
+          
+
+        
+           
+            h1{
+                margin: auto;
+                color: white;
+                font-size: 11.5vw;
+                font-family: 'Changa',;
+                line-height: 10vw;
+                animation: heading;
+                animation-duration: 3s;
+                animation-fill-mode: forwards; 
+                position: relative;  
+            }
+
+            @keyframes heading {
+                0%    {left: -100vw}
+                100%  {left: 0vw}
+                
+            }
+
+            h2{
+                font-family: 'Permanent Marker', ;
+                color: #D1F6FC;
+                font-size: 5vw;
+                margin-block-start: 1px;
+                margin-block-end: 1px;
+                line-height: 5.5vw;
+                animation: heading2;
+                animation-duration: 3s;
+                animation-fill-mode: forwards; 
+                position: relative;
+                
+            }
+
+           
+
+            h3{
+                font-family: 'Changa',;;
+                color: white;
+                font-size: 2.2vw;
+                margin-block-start: 1px;
+                margin-block-end: 4vw;
+                line-height: 2.5vw;
+            }
+            
+           }
+       
+        }
+
+        .header_bagrundsBillede{
+            width: 100vw;
+            height: 100vw;
+            position: absolute;
+            
+    
+           
+        }
+
+        .profilBillede{
+            width: 20vw;
+            margin-top: 2vw;
+            margin-bottom: 3vw;
+    
+           
+        }
+
+        .container_header_flex{
+            margin: 0;
+            
+           
+           
+        
+            .container_header_flex_under_circle{
+                
+                width: 100vw;
+                height: 100vw;
+                
+                .header_bagrundsBillede{
+                    position: absolute;
+                    
+                }
+            }
+            
+            
+                   
+                    
+        }
+
+            
+
+        .button {
+            background-image: linear-gradient(#006879, #00343D);
+            border: none;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 2vw;
+            margin: auto;
+            cursor: pointer;
+            border-radius: 80vw;
+            font-family: 'Changa',;
+            width: 11vw;
+            height: 5vw;
+            vertical-align: middle;
+            box-shadow: 5px 5px 5px #08010134;
+           
+            
+        }
+
+       
+
+        

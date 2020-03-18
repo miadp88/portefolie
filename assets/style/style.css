@@ -1,0 +1,1224 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #474546;
+  overflow-x: hidden;
+  width: 100vw;
+}
+
+body .sectionMobile {
+  display: none;
+}
+
+.bodyContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #D1F6FC;
+  height: 63vw;
+  width: 100vw;
+  margin-top: 40%;
+}
+
+.leftImageCard {
+  width: 60vw;
+}
+
+.card {
+  width: 25vw;
+  height: 25vw;
+  padding: 10px 10px 20px 10px;
+  background-color: white;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-left: 10px;
+}
+
+.bodyContainerFlexCard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  position: relative;
+  margin-top: 20vw;
+}
+
+.bodyContainerFlexCard .caption {
+  -webkit-margin-before: 5px;
+          margin-block-start: 5px;
+  -webkit-margin-after: 0px;
+          margin-block-end: 0px;
+  font-family: "Parisienne";
+  text-align: center;
+  font-size: 2.6vw;
+}
+
+.rotate_right {
+  float: left;
+  -webkit-transform: rotate(-5deg);
+  transform: rotate(-5deg);
+  background-color: white;
+  margin-left: 10vw;
+  margin-top: -5vw;
+}
+
+.rotate_left {
+  float: left;
+  -webkit-transform: rotate(8deg);
+  transform: rotate(8deg);
+  background-color: white;
+  margin-left: -25vw;
+  margin-top: 17vw;
+}
+
+.rotate_left .cardImage {
+  border: solid 1px rgba(128, 128, 128, 0.089);
+  width: 25vw;
+  height: 20vw;
+}
+
+.rightTextCard {
+  float: right;
+  background-color: white;
+  width: 60vw;
+  margin-top: 5vw;
+  margin-bottom: 5vw;
+  border-radius: 20px 0 0 20px;
+  padding: 2vw;
+  -webkit-box-shadow: 5px 5px 5px #08010134;
+          box-shadow: 5px 5px 5px #08010134;
+  height: 22vw;
+  -webkit-animation: P2;
+          animation: P2;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  animation-direction: reverse;
+  position: relative;
+}
+
+.rightTextCard h2 {
+  font-size: 5vw;
+  font-family: "Changa";
+  color: #03c7e6bb;
+  -webkit-margin-before: 5vw;
+          margin-block-start: 5vw;
+  -webkit-margin-after: 0vw;
+          margin-block-end: 0vw;
+  line-height: 0vw;
+  padding: 0 3vw;
+}
+
+.rightTextCard p {
+  color: black;
+  font-size: 2vw;
+  padding: 3vw;
+}
+
+.rightTextCard .button {
+  margin-top: -3.5vw;
+  margin-left: 13vw;
+}
+
+.cardImageImage {
+  width: 40vw;
+  height: 25vw;
+  border: solid 1px rgba(128, 128, 128, 0.089);
+  width: 25vw;
+  height: 20vw;
+}
+
+.bodyContainer2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 20vw;
+  width: 100vw;
+  margin-top: 20vw;
+  margin-bottom: 10vw;
+  background-color: #D1F6FC;
+  -webkit-box-shadow: 5px 5px 5px #08010134;
+          box-shadow: 5px 5px 5px #08010134;
+}
+
+.bodyContainer2 .bodyContainerFlexCard2 {
+  height: 20vw;
+  width: 90vw;
+  margin-left: 5vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.bodyContainer2 .bodyContainerFlexCard2 .SEOText {
+  margin-top: -5vw;
+}
+
+.bodyContainer2 .bodyContainerFlexCard2 .SEOText h2 {
+  color: white;
+  margin: auto;
+  margin-left: -28vw;
+  margin-top: 10vw;
+  font-size: 9.5vw;
+  font-family: "Changa";
+  line-height: 3vw;
+  text-shadow: 5px 5px 5px #08010134;
+}
+
+.bodyContainer2 .bodyContainerFlexCard2 .SEOText h3 {
+  color: black;
+  font-size: 3vw;
+  margin-bottom: 3vw;
+  margin-left: -28vw;
+}
+
+.bodyContainer2 .bodyContainerFlexCard2 .leftImageCard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  position: relative;
+  margin-top: 2vw;
+}
+
+.bodyContainer2 .bodyContainerFlexCard2 .leftImageCard .card {
+  width: 25vw;
+  height: 25vw;
+  padding: 10px 10px 20px 10px;
+  background-color: white;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-left: 10px;
+}
+
+.bodyContainer2 .bodyContainerFlexCard2 .leftImageCard .rotate_left {
+  float: left;
+  -webkit-transform: rotate(15deg);
+  transform: rotate(15deg);
+  margin-top: 50px;
+  margin-top: -8vw;
+}
+
+.bodyContainer2 .bodyContainerFlexCard2 .leftImageCard .rotate_left .cardImageImage {
+  width: 30vw;
+  border: solid 1px rgba(128, 128, 128, 0.089);
+  width: 25vw;
+  height: 20vw;
+}
+
+.bodyContainer2 .bodyContainerFlexCard2 .leftImageCard .rotate_left .caption {
+  -webkit-margin-before: 5px;
+          margin-block-start: 5px;
+  -webkit-margin-after: 0px;
+          margin-block-end: 0px;
+  font-family: "Parisienne";
+  text-align: center;
+  font-size: 2.6vw;
+}
+
+.button h4 {
+  margin-top: 0.5vw;
+}
+
+.bodyContainer3 {
+  background-image: url(../img/gruppeSnakkerSammenLilleBlur.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: saturation;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  width: 100vw;
+  padding-bottom: 40vw;
+}
+
+.bodyContainer3 .bodyContainerFlexCard2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  position: relative;
+  margin-top: -10vw;
+}
+
+.bodyContainer3 .bodyContainerFlexCard2 .card {
+  width: 25vw;
+  height: 25vw;
+  padding: 10px 10px 20px 10px;
+  background-color: white;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-left: 10px;
+}
+
+.bodyContainer3 .bodyContainerFlexCard2 .card .caption {
+  -webkit-margin-before: 5px;
+          margin-block-start: 5px;
+  -webkit-margin-after: 0px;
+          margin-block-end: 0px;
+  font-family: "Parisienne";
+  text-align: center;
+  font-size: 2.6vw;
+}
+
+.bodyContainer3 .bodyContainerFlexCard2 .rotate_left {
+  float: left;
+  -webkit-transform: rotate(-5deg);
+  transform: rotate(-5deg);
+  background-color: white;
+  margin-top: 15vw;
+  margin-left: 7vw;
+}
+
+.bodyContainer3 .bodyContainerFlexCard2 .rotate_right {
+  float: left;
+  -webkit-transform: rotate(15deg);
+  transform: rotate(15deg);
+  margin-top: 50px;
+  margin-left: 6vw;
+  margin-top: -10vw;
+}
+
+.bodyContainer3 .bodyContainerFlexCard2 .rotate_right .cardImage {
+  border: solid 1px rgba(128, 128, 128, 0.089);
+  width: 25vw;
+  height: 20vw;
+}
+
+.bodyContainer3 .leftTextCard {
+  float: left;
+  background-color: white;
+  width: 50vw;
+  margin-top: 15vw;
+  margin-bottom: 5vw;
+  border-radius: 0 20px 20px 0;
+  padding: 2vw;
+  -webkit-box-shadow: 5px 5px 5px #08010134;
+          box-shadow: 5px 5px 5px #08010134;
+}
+
+.bodyContainer3 .leftTextCard h2 {
+  font-size: 5vw;
+  font-family: "Changa";
+  color: #03c7e6bb;
+  -webkit-margin-before: 5vw;
+          margin-block-start: 5vw;
+  -webkit-margin-after: 0vw;
+          margin-block-end: 0vw;
+  line-height: 0vw;
+  padding: 0 3vw;
+}
+
+.bodyContainer3 .leftTextCard p {
+  color: black;
+  font-size: 2vw;
+  padding: 3vw;
+}
+
+.bodyContainer4 {
+  margin-top: -35vw;
+  background: linear-gradient(-3deg, #D1F6FC 60%, #ffed4b00 61%);
+  width: 100vw;
+  height: 60vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.bodyContainer4 .imageOfMe {
+  height: 60vw;
+}
+
+.bodyContainer4 .rightTextCard {
+  margin-top: 25vw;
+  margin-left: -8vw;
+}
+
+.bodyContainer4 .rightTextCard .button {
+  margin-top: -1vw;
+}
+
+.bodyContainer5 {
+  height: 115vw;
+  width: 100vw;
+  background-image: url(../img/projektbillde.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: saturation;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  overflow: hidden;
+}
+
+.bodyContainer5 .halfBackground {
+  background: linear-gradient(130deg, #fdcc3b00 60%, #D1F6FC 60.3%);
+  width: 100vw;
+  z-index: 2;
+  position: relative;
+  height: 110vw;
+  float: right;
+}
+
+.bodyContainer5 .halfBackground .verticalFlex .bodyContainer5Headline1 {
+  margin: auto;
+  color: white;
+  font-size: 11.5vw;
+  font-family: "Changa";
+  line-height: 10vw;
+  padding: 10vw;
+  padding-bottom: 1vw;
+}
+
+.bodyContainer5 .halfBackground .verticalFlex .bodyContainer5Headline2 {
+  color: #D1F6FC;
+  padding: 10vw;
+  padding: 0vw 0vw 1vw 10vw;
+  font-size: 7.5vw;
+  font-family: "Changa";
+  margin: 0vw;
+}
+
+.bodyContainer5 .halfBackground .verticalFlex .bodyContainer5ParagrafA {
+  color: white;
+  padding: 0vw 0vw 1vw 10vw;
+  line-height: 0vw;
+  font-size: 2vw;
+}
+
+.bodyContainer5 .halfBackground .verticalFlex .bodyContainer5ParagrafB {
+  color: white;
+  padding: 3vw 0vw 1vw 10vw;
+  line-height: 0vw;
+  font-size: 2vw;
+}
+
+.bodyContainer5 .halfBackground .verticalFlex .bodyContainer5ParagrafC {
+  color: white;
+  padding: 0vw 0vw 1vw 10vw;
+  line-height: 0vw;
+  font-size: 2vw;
+}
+
+.bodyContainer5 .halfBackground .verticalFlex .button {
+  margin-top: 3vw;
+  margin-left: 13vw;
+}
+
+.bodyContainer5 .halfBackground .horosontalFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  z-index: 99;
+  margin-top: -10vw;
+}
+
+.bodyContainer5 .halfBackground .horosontalFlex .leftFlexboxTextCard {
+  width: 50vw;
+  float: left;
+  background-color: white;
+  width: 50vw;
+  margin-top: 15vw;
+  margin-bottom: 5vw;
+  border-radius: 0 20px 20px 0;
+  padding: 2vw;
+  -webkit-box-shadow: 5px 5px 5px #08010134;
+          box-shadow: 5px 5px 5px #08010134;
+}
+
+.bodyContainer5 .halfBackground .horosontalFlex .leftFlexboxTextCard h2 {
+  font-size: 5vw;
+  font-family: "Changa";
+  color: #03c7e6bb;
+  -webkit-margin-before: 5vw;
+          margin-block-start: 5vw;
+  -webkit-margin-after: 0vw;
+          margin-block-end: 0vw;
+  line-height: 0vw;
+  padding: 0 3vw;
+}
+
+.bodyContainer5 .halfBackground .horosontalFlex .leftFlexboxTextCard p {
+  color: black;
+  font-size: 2vw;
+  padding: 3vw;
+}
+
+.bodyContainer5 .halfBackground .horosontalFlex .rigthFlexImageCardTrible {
+  height: 50vw;
+  width: 50vw;
+  margin-left: 5vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  position: relative;
+  margin-top: -10vw;
+}
+
+.bodyContainer5 .halfBackground .horosontalFlex .rigthFlexImageCardTrible .card {
+  width: 25vw;
+  height: 25vw;
+  padding: 10px 10px 20px 10px;
+  background-color: white;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-left: 10px;
+}
+
+.bodyContainer5 .halfBackground .horosontalFlex .rigthFlexImageCardTrible .card .caption {
+  -webkit-margin-before: 5px;
+          margin-block-start: 5px;
+  -webkit-margin-after: 0px;
+          margin-block-end: 0px;
+  font-family: "Parisienne";
+  text-align: center;
+  font-size: 2.6vw;
+}
+
+.bodyContainer5 .halfBackground .horosontalFlex .rigthFlexImageCardTrible .rotate_left {
+  float: left;
+  -webkit-transform: rotate(-5deg);
+  transform: rotate(-5deg);
+  background-color: white;
+  margin-top: 15vw;
+  margin-left: 7vw;
+}
+
+.bodyContainer5 .halfBackground .horosontalFlex .rigthFlexImageCardTrible .rotate_right {
+  float: left;
+  -webkit-transform: rotate(15deg);
+  transform: rotate(15deg);
+  margin-top: 50px;
+  margin-left: 10vw;
+  margin-top: -15vw;
+  -webkit-transform: rotate(15deg);
+  transform: rotate(15deg);
+}
+
+.bodyContainer5 .halfBackground .horosontalFlex .rigthFlexImageCardTrible .rotate_right .cardImage {
+  border: solid 1px rgba(128, 128, 128, 0.089);
+  width: 25vw;
+  height: 20vw;
+}
+
+.bodyContainer5 .halfBackground .horosontalFlex .rigthFlexImageCardTrible .rotate_right_botton {
+  margin-top: -18vw;
+  float: left;
+  -webkit-transform: rotate(2deg);
+  transform: rotate(2deg);
+  z-index: 99;
+}
+
+.bodyContainer5 .halfBackground .horosontalFlex .rigthFlexImageCardTrible .rotate_right_botton .cardImage {
+  border: solid 1px rgba(128, 128, 128, 0.089);
+  width: 25vw;
+  height: 20vw;
+}
+
+.bodyContainer5 .halfBackground .horosontalFlex .rigthFlexImageCardTrible .rotate_right_botton .cardImage .caption {
+  -webkit-margin-before: 5px;
+          margin-block-start: 5px;
+  -webkit-margin-after: 0px;
+          margin-block-end: 0px;
+  font-family: "Parisienne";
+  text-align: center;
+  font-size: 2.6vw;
+  -webkit-margin-before: 2px;
+          margin-block-start: 2px;
+  margin-block-end: 0px;
+}
+
+.bodyContainer6 {
+  background-color: #D1F6FC;
+  height: 40vw;
+  z-index: 1000;
+  margin-top: -20vw;
+  padding-top: 2vw;
+  margin-bottom: 13vw;
+}
+
+.bodyContainer7 {
+  background-color: #D1F6FC;
+  height: 55vw;
+  z-index: 1000;
+  margin-top: -1vw;
+  margin-bottom: -1vw;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  position: relative;
+}
+
+.bodyContainer7 .bodyContainerFlexCard {
+  margin-top: -30vw;
+}
+
+.bodyContainer7 .card {
+  width: 25vw;
+  height: 25vw;
+  padding: 10px 10px 20px 10px;
+  background-color: white;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-left: 10px;
+}
+
+.bodyContainer7 .card .caption {
+  -webkit-margin-before: 5px;
+          margin-block-start: 5px;
+  -webkit-margin-after: 0px;
+          margin-block-end: 0px;
+  font-family: "Parisienne";
+  text-align: center;
+  font-size: 2.6vw;
+}
+
+.bodyContainer7 .rotate_right {
+  margin-left: 12vw;
+  transform: rotate(9deg);
+  -ms-transform: rotate(-9deg);
+  -webkit-transform: rotate(9deg);
+  margin-top: -2VW;
+}
+
+.bodyContainer7 .rotate_left {
+  margin-left: 10vw;
+  margin-top: 13vw;
+  position: absolute;
+  transform: rotate(-29deg);
+  -ms-transform: rotate(-29deg);
+  -webkit-transform: rotate(-29deg);
+}
+
+.bodyContainer7 .rotate_left .cardImage {
+  border: solid 1px rgba(128, 128, 128, 0.089);
+  width: 25vw;
+  height: 20vw;
+}
+
+.bodyContainer7 .rightTextCard {
+  width: 50VW;
+  height: 36vw;
+  padding-right: 0vw;
+  position: absolute;
+  left: 48vw;
+}
+
+.bodyContainer7 .rightTextCard .button {
+  margin-top: 11vw;
+}
+
+.bodyContainer8 {
+  margin: auto;
+  margin-top: 15vw;
+  color: white;
+  font-size: 5.5vw;
+  font-family: "Changa";
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-margin-before: none;
+  margin-block-start: none;
+  -webkit-margin-after: none;
+          margin-block-end: none;
+  -webkit-margin-start: none;
+          margin-inline-start: none;
+  -webkit-margin-end: none;
+          margin-inline-end: none;
+  font-weight: bold;
+  position: absolute;
+  z-index: 1000;
+  width: 100vw;
+}
+
+.bodyContainer8 h2 {
+  margin: auto;
+  text-shadow: 5px 5px 5px #08010134;
+  margin-bottom: -8vw;
+}
+
+.bodyContainer8 .Empathy {
+  background-color: #D1F6FC;
+  padding: 2vw;
+  border-radius: 1vw;
+  -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.7);
+          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.7);
+}
+
+.bodyContainer8 .horizontalFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  position: relative;
+  width: 100vw;
+  background: #aae0e9;
+  border-radius: 4px;
+  color: rgba(0, 0, 0, 0.8);
+  text-shadow: 0 1px 0 #fff;
+  margin: 60px auto;
+}
+
+.bodyContainer8 .horizontalFlex::before,
+.bodyContainer8 .horizontalFlex::after {
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 15px;
+  left: 10px;
+  width: 50%;
+  top: 80%;
+  max-width: 300px;
+  background: rgba(0, 0, 0, 0.7);
+  -webkit-box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
+          box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
+  -webkit-transform: rotate(-3deg);
+          transform: rotate(-3deg);
+}
+
+.bodyContainer8 .horizontalFlex::after {
+  -webkit-transform: rotate(3deg);
+          transform: rotate(3deg);
+  right: 10px;
+  left: auto;
+}
+
+.bodyContainer8 .designthinkingIcon {
+  width: 10vw;
+  height: 10vw;
+}
+
+.bodyContainer8 .Box {
+  font-size: 2vw;
+  color: black;
+  margin: auto;
+}
+
+.bodyContainer8 .Box h4 {
+  margin: auto;
+  text-align: center;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 4;
+  /* Sit on top */
+  left: 0vw;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: black;
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+  -webkit-animation-name: fadeIn;
+  /* Fade in the background */
+  -webkit-animation-duration: 0.4s;
+  animation-name: fadeIn;
+  animation-duration: 0.4s;
+}
+
+/* Modal Content */
+.modal-content {
+  position: fixed;
+  bottom: 0;
+  background-color: #fefefe;
+  width: 100%;
+  -webkit-animation-name: slideIn;
+  -webkit-animation-duration: 0.4s;
+  animation-name: slideIn;
+  animation-duration: 0.4s;
+}
+
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+}
+
+.modal-body {
+  padding: 2px 16px;
+}
+
+.modal-footer {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+}
+
+@-webkit-keyframes slideIn {
+  from {
+    bottom: -300px;
+    opacity: 0;
+  }
+  to {
+    bottom: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    bottom: -300px;
+    opacity: 0;
+  }
+  to {
+    bottom: 0;
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: #D1F6FC;
+    width: 100vw;
+    overflow-x: hidden;
+  }
+  body .bodyContainer, body .bodyContainer2, body .bodyContainer3, body .bodyContainer4, body .bodyContainer5, body .bodyContainer6, body .bodyContainer7, body .bodyContainer8, body footer {
+    display: none;
+  }
+  body header {
+    position: fixed;
+  }
+  body header .container_header_flex .container_header_flex_inner_Box {
+    width: 100vw;
+    height: 20vw;
+    margin-top: -5vw;
+  }
+  body header .container_header_flex .container_header_flex_inner_Box .profilBillede {
+    display: none;
+  }
+  body header .container_header_flex .container_header_flex_inner_Box .profilBilledebund {
+    width: 40vw;
+  }
+  body header .container_header_flex .container_header_flex_inner_Box h1 {
+    font-size: 25vw;
+    margin-top: none;
+    text-align: center;
+    margin-bottom: 5vw;
+  }
+  body header .container_header_flex .container_header_flex_inner_Box h2 {
+    font-size: 8vw;
+    margin-bottom: 2vw;
+  }
+  body header .container_header_flex .container_header_flex_inner_Box h3 {
+    font-size: 3vw;
+  }
+  body header .container_header_flex .container_header_flex_inner_Box .button {
+    display: none;
+  }
+  body .sectionMobile {
+    display: block;
+    margin-top: 50vw;
+    position: absolute;
+    z-index: 1000;
+  }
+  body .sectionMobile .sectionHeader {
+    background-color: #b3d2d6;
+    margin-top: -5vw;
+    border-radius: 25px 25px 0 0;
+    -webkit-box-shadow: 0 -5px 5px -5px #333;
+            box-shadow: 0 -5px 5px -5px #333;
+    color: white;
+    text-align: center;
+    z-index: 1000;
+    position: relative;
+  }
+  body .sectionMobile .sectionHeader h2 {
+    margin-top: 0vw;
+    margin-bottom: 0px;
+    padding: 5vw 0 5vw 0;
+    text-shadow: 5px 5px 5px #08010134;
+    font-size: 15vw;
+    font-family: "Changa";
+    line-height: 7vw;
+  }
+  body .sectionMobile .sectionImage .Images {
+    width: 100vw;
+    margin-top: 0px;
+  }
+  body .sectionMobile .sectionText {
+    background-color: white;
+    margin-top: -6vw;
+    margin-bottom: -5VW;
+  }
+  body .sectionMobile .sectionText h3 {
+    font-family: 'Permanent Marker';
+    padding: 5vw 0 0 5vw;
+  }
+  body .sectionMobile .sectionText p {
+    padding: 0 0 15vw 5vw;
+  }
+  body .sectionMobile .sectionImagebottom {
+    width: 100vw;
+    margin-bottom: -4vw;
+    z-index: -2;
+  }
+  body .sectionMobile .sectionImagebottom .Imagesbehinde {
+    width: 100vw;
+  }
+  body .sectionMobile .button {
+    width: 30vw;
+    height: 10vw;
+    margin-top: -185vw;
+    margin-left: 35vw;
+  }
+  body .sectionMobile .button h4 {
+    font-size: 4.5vw;
+  }
+  body .sectionMobile .button2 {
+    width: 30vw;
+    height: 10vw;
+    margin-top: -5vw;
+    margin-left: 35vw;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#006879), to(#00343D));
+    background-image: linear-gradient(#006879, #00343D);
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2vw;
+    cursor: pointer;
+    border-radius: 80vw;
+    font-family: "Changa";
+    vertical-align: middle;
+    -webkit-box-shadow: 5px 5px 5px #08010134;
+            box-shadow: 5px 5px 5px #08010134;
+  }
+  body .sectionMobile .button2 h4 {
+    font-size: 4.5vw;
+    line-height: 1vw;
+    margin-top: 5vw;
+  }
+}
+
+@-webkit-keyframes anim {
+  from {
+    left: -100px;
+  }
+  to {
+    left: 0px;
+  }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes anim {
+  from {
+    left: -100px;
+  }
+  to {
+    left: 0px;
+  }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.anim {
+  opacity: 0;
+}
+
+footer {
+  height: 6vw;
+  background-color: black;
+  bottom: 0;
+  z-index: 2000;
+}
+
+footer .FlexBoxFooter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100vw;
+}
+
+footer .FlexBoxFooter h4 {
+  margin: 0;
+  font-size: 2vw;
+}
+
+footer .FlexBoxFooter .rightFooter h4 {
+  float: right;
+  margin-right: 6vw;
+}
+
+footer .FlexBoxFooter .leftFooter h4 {
+  float: left;
+  margin-left: 3vw;
+}
+
+footer .FlexBoxFooter .flexFooter {
+  line-height: 6vw;
+  width: 100vw;
+  text-align: center;
+}
+
+footer .FlexBoxFooter .flexFooter a {
+  text-decoration: none;
+  color: white;
+  font-size: 2vw;
+}
+
+footer .FlexBoxFooter .flexFooter a .fab {
+  padding-left: 0.5vw;
+  padding-right: 0.5vw;
+}
+
+footer .FlexBoxFooter .flexFooter a:visited {
+  color: white;
+  border-bottom: 1px solid #b3b3b3;
+}
+
+footer .FlexBoxFooter .flexFooter a:hover {
+  color: #D1F6FC;
+  -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.7);
+          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.7);
+  border-radius: 10vw;
+}
+
+header {
+  width: 100vw;
+  margin: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  z-index: 99;
+}
+
+.container_header_flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100vw;
+  position: absolute;
+  z-index: 1008;
+  margin: none;
+}
+
+.container_header_flex .container_header_flex_inner_Box {
+  margin: auto;
+  text-align: center;
+  position: relative;
+  margin-bottom: 5px;
+  width: 50vw;
+}
+
+.container_header_flex .container_header_flex_inner_Box h1 {
+  margin: auto;
+  color: white;
+  font-size: 11.5vw;
+  font-family: "Changa";
+  line-height: 10vw;
+  -webkit-animation: heading;
+          animation: heading;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  position: relative;
+}
+
+@-webkit-keyframes heading {
+  0% {
+    left: -100vw;
+  }
+  100% {
+    left: 0vw;
+  }
+}
+
+@keyframes heading {
+  0% {
+    left: -100vw;
+  }
+  100% {
+    left: 0vw;
+  }
+}
+
+.container_header_flex .container_header_flex_inner_Box h2 {
+  font-family: "Permanent Marker";
+  color: #D1F6FC;
+  font-size: 5vw;
+  -webkit-margin-before: 1px;
+          margin-block-start: 1px;
+  -webkit-margin-after: 1px;
+          margin-block-end: 1px;
+  line-height: 5.5vw;
+  -webkit-animation: heading2;
+          animation: heading2;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  position: relative;
+}
+
+.container_header_flex .container_header_flex_inner_Box h3 {
+  font-family: "Changa";
+  color: white;
+  font-size: 2.2vw;
+  -webkit-margin-before: 1px;
+          margin-block-start: 1px;
+  -webkit-margin-after: 4vw;
+          margin-block-end: 4vw;
+  line-height: 2.5vw;
+}
+
+.header_bagrundsBillede {
+  width: 100vw;
+  height: 100vw;
+  position: absolute;
+}
+
+.profilBillede {
+  width: 20vw;
+  margin-top: 2vw;
+  margin-bottom: 3vw;
+}
+
+.container_header_flex {
+  margin: 0;
+}
+
+.container_header_flex .container_header_flex_under_circle {
+  width: 100vw;
+  height: 100vw;
+}
+
+.container_header_flex .container_header_flex_under_circle .header_bagrundsBillede {
+  position: absolute;
+}
+
+.button {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#006879), to(#00343D));
+  background-image: linear-gradient(#006879, #00343D);
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2vw;
+  margin: auto;
+  cursor: pointer;
+  border-radius: 80vw;
+  font-family: "Changa";
+  width: 11vw;
+  height: 5vw;
+  vertical-align: middle;
+  -webkit-box-shadow: 5px 5px 5px #08010134;
+          box-shadow: 5px 5px 5px #08010134;
+}
+/*# sourceMappingURL=style.css.map */
