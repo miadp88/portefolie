@@ -1058,6 +1058,11 @@ body .sectionMobile {
   opacity: 0;
 }
 
+.mySlides {
+  -webkit-transition: cubic-bezier(0.895, 0.03, 0.685, 0.22);
+  transition: cubic-bezier(0.895, 0.03, 0.685, 0.22);
+}
+
 footer {
   height: 6vw;
   background-color: black;
