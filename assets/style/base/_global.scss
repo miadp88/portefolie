@@ -711,41 +711,40 @@ body{
     }
 }
 
-/* The Modal (background) */
+
 .modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 4; /* Sit on top */
+    display: none; 
+    position: fixed; 
+    z-index: 4; 
     left: 0vw;
     top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-    -webkit-animation-name: fadeIn; /* Fade in the background */
+    height: 100vw;
+    overflow: hidden;
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+    -webkit-animation-name: fadeIn;
     -webkit-animation-duration: 0.4s;
     animation-name: fadeIn;
     animation-duration: 0.4s
   }
   
-  /* Modal Content */
+  
   .modal-content {
-    position: fixed;
-    bottom: 0;
-    background-color: #fefefe;
-    width: 100%;
+    overflow: hidden; 
+    background-color: #fefefe; 
+    margin: 4vw;
     -webkit-animation-name: slideIn;
     -webkit-animation-duration: 0.4s;
     animation-name: slideIn;
-    animation-duration: 0.4s
+    animation-duration: 0.4s;
+    border-radius: 2vw;
   }
   
   
   .close {
-    color: white;
+    color: black;
     float: right;
-    font-size: 28px;
+    font-size: 5vw;
     font-weight: bold;
   }
   
@@ -758,16 +757,56 @@ body{
   
   .modal-header {
     padding: 2px 16px;
-    background-color: #5cb85c;
+    background-color: $blue;
     color: white;
+    height: 7vw;
+    overflow: hidden; 
+    h2{
+        text-shadow: 5px 5px 5px #08010134;
+        color: white;
+        text-align: center;
+        font-size: 5vw;
+        margin: 0px;
+    }
   }
   
-  .modal-body {padding: 2px 16px;}
+  .modal-body {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    
+        .leftFlexModal{
+            width: 50vw;
+            height: 30vw;
+               .imageAboutMe{
+                width: 30vw;
+                height: auto;
+            }}
+            .rightFlexModal{
+                height: 30vw;
+                overflow: scroll;
+                padding: 2vw;
+                box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
+                h2{
+                    font-size: 5vw;
+                    margin: 0;
+                }
+                p{
+                    font-size: 1.5vw;
+                    height: 60vw;
+                    margin: 2vw 0 0 0;
+                }
+            }}
   
   .modal-footer {
     padding: 2px 16px;
-    background-color: #5cb85c;
-    color: white;
+    background-color: $blue;
+    color: $textblue;
+    h3{
+        text-shadow: 5px 5px 5px #0801013a;
+        color: black;
+        text-align: center;
+    }
   }
   
 

@@ -750,49 +750,37 @@ body .sectionMobile {
   text-align: center;
 }
 
-/* The Modal (background) */
 .modal {
   display: none;
-  /* Hidden by default */
   position: fixed;
-  /* Stay in place */
   z-index: 4;
-  /* Sit on top */
   left: 0vw;
   top: 0;
-  width: 100%;
-  /* Full width */
-  height: 100%;
-  /* Full height */
-  overflow: auto;
-  /* Enable scroll if needed */
+  height: 100vw;
+  overflow: hidden;
   background-color: black;
-  /* Fallback color */
   background-color: rgba(0, 0, 0, 0.4);
-  /* Black w/ opacity */
   -webkit-animation-name: fadeIn;
-  /* Fade in the background */
   -webkit-animation-duration: 0.4s;
   animation-name: fadeIn;
   animation-duration: 0.4s;
 }
 
-/* Modal Content */
 .modal-content {
-  position: fixed;
-  bottom: 0;
+  overflow: hidden;
   background-color: #fefefe;
-  width: 100%;
+  margin: 4vw;
   -webkit-animation-name: slideIn;
   -webkit-animation-duration: 0.4s;
   animation-name: slideIn;
   animation-duration: 0.4s;
+  border-radius: 2vw;
 }
 
 .close {
-  color: white;
+  color: black;
   float: right;
-  font-size: 28px;
+  font-size: 5vw;
   font-weight: bold;
 }
 
@@ -805,18 +793,70 @@ body .sectionMobile {
 
 .modal-header {
   padding: 2px 16px;
-  background-color: #5cb85c;
+  background-color: #D1F6FC;
   color: white;
+  height: 7vw;
+  overflow: hidden;
+}
+
+.modal-header h2 {
+  text-shadow: 5px 5px 5px #08010134;
+  color: white;
+  text-align: center;
+  font-size: 5vw;
+  margin: 0px;
 }
 
 .modal-body {
-  padding: 2px 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  overflow: hidden;
+}
+
+.modal-body .leftFlexModal {
+  width: 50vw;
+  height: 30vw;
+}
+
+.modal-body .leftFlexModal .imageAboutMe {
+  width: 30vw;
+  height: auto;
+}
+
+.modal-body .rightFlexModal {
+  height: 30vw;
+  overflow: scroll;
+  padding: 2vw;
+  -webkit-box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
+          box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
+}
+
+.modal-body .rightFlexModal h2 {
+  font-size: 5vw;
+  margin: 0;
+}
+
+.modal-body .rightFlexModal p {
+  font-size: 1.5vw;
+  height: 60vw;
+  margin: 2vw 0 0 0;
 }
 
 .modal-footer {
   padding: 2px 16px;
-  background-color: #5cb85c;
-  color: white;
+  background-color: #D1F6FC;
+  color: #03c7e6bb;
+}
+
+.modal-footer h3 {
+  text-shadow: 5px 5px 5px #0801013a;
+  color: black;
+  text-align: center;
 }
 
 @-webkit-keyframes slideIn {
